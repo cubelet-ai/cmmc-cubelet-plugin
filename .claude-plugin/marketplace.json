@@ -1,0 +1,48 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cubelet-ai-cmmc-cubelet-plugin",
+  "description": "AI-native CMMC compliance learning, simulation, credentialing, and gap closure.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "9BRIANS"
+  },
+  "metadata": {
+    "description": "AI-native CMMC compliance learning, simulation, credentialing, and gap closure — study, simulate, verify, and plan in the flow of work.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cmmc-cubelet",
+      "description": "AI-native CMMC compliance learning, simulation, credentialing, and gap closure — study, simulate, verify, and plan in the flow of work. Adapts to three personas: Helm Program students, compliance professionals, and consulting clients.",
+      "source": "./",
+      "version": "1.0.0",
+      "author": {
+        "name": "9BRIANS"
+      },
+      "category": "security",
+      "keywords": [
+        "cmmc",
+        "compliance",
+        "cybersecurity",
+        "assessment",
+        "simulation",
+        "credentialing",
+        "workforce",
+        "governance",
+        "nist",
+        "cui",
+        "defense"
+      ],
+      "homepage": "https://cubelet.ai",
+      "repository": "https://github.com/cubelet-ai/cmmc-cubelet-plugin",
+      "license": "Proprietary",
+      "skills": [
+        "./skills/cmmc-journey",
+        "./skills/cmmc-study",
+        "./skills/cmmc-simulate",
+        "./skills/cmmc-credential",
+        "./skills/cmmc-scaffold-gap"
+      ]
+    }
+  ]
+}

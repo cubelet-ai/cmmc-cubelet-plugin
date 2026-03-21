@@ -2,7 +2,7 @@
   "mcpServers": {
     "cmmc-cubelet-platform": {
       "type": "url",
-      "url": "https://cmmc-mcp.euler-center.workers.dev/mcp",
+      "url": "https://cmmc.cubelet.ai/mcp",
       "name": "CMMC Cubelet Platform"
     }
   }
