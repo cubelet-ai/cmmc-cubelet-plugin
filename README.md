@@ -2,8 +2,6 @@
 
 **AI-native CMMC compliance learning, simulation, credentialing, and gap closure — all in the flow of work.**
 
-Built by [9BRAINS](https://9brains.ai) / [Divergence Academy](https://divergence.one) for The Helm Program.
-
 ## What This Plugin Does
 
 Instead of giving you 16 separate MCP tools and asking you to figure out the sequence, this plugin **orchestrates** the entire CMMC compliance learning journey:
