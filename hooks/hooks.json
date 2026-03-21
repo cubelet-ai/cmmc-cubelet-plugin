@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'CMMC Cubelet Plugin active. Journey orchestrator ready. Say anything CMMC-related to begin.'",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/scripts/session-summary.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

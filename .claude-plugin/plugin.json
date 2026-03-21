@@ -1,0 +1,24 @@
+{
+  "name": "cmmc-cubelet",
+  "version": "1.0.0",
+  "description": "AI-native CMMC compliance learning, simulation, credentialing, and gap closure — study, simulate, verify, and plan in the flow of work. Adapts to three personas: Helm Program students, compliance professionals, and consulting clients.",
+  "author": {
+    "name": "9BRAINS / Divergence Academy",
+    "url": "https://cubelet.ai"
+  },
+  "repository": "https://github.com/9brains/cmmc-cubelet-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "cmmc",
+    "compliance",
+    "cybersecurity",
+    "assessment",
+    "simulation",
+    "credentialing",
+    "workforce",
+    "governance",
+    "nist",
+    "cui",
+    "defense"
+  ]
+}
