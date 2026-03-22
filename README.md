@@ -22,7 +22,7 @@ The orchestrator adapts to three personas:
 
 ```bash
 # From GitHub marketplace
-/plugin marketplace add 9brains/cmmc-cubelet-plugin
+/plugin marketplace add cmmc-cubelet/cmmc-cubelet-plugin
 /plugin install cmmc-cubelet@9brains-cmmc-cubelet-plugin
 
 # Or local development
